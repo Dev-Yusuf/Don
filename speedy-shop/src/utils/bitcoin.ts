@@ -1,8 +1,7 @@
 // Bitcoin utility functions
 
-// Placeholder BTC address for payments
-// In production, replace with your actual BTC address
-export const BTC_ADDRESS = 'bc1q_dummy_address_replaced_by_user_later';
+// BTC address for payments
+export const BTC_ADDRESS = '1BjzXaypGt9knasWRHLeJ5M7BLEGESHhvG';
 
 // Fetch current BTC price from CoinGecko
 export const fetchBtcPrice = async (): Promise<number> => {
